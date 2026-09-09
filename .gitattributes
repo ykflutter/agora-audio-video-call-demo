@@ -1,0 +1,23 @@
+# Flutter / Dart
+*.dart linguist-language=Dart
+
+# Flutter generated files
+.dart_tool/** linguist-generated
+build/** linguist-generated
+.flutter-plugins linguist-generated
+.flutter-plugins-dependencies linguist-generated
+.packages linguist-generated
+
+# Android generated/build files
+android/.gradle/** linguist-generated
+android/app/build/** linguist-generated
+android/build/** linguist-generated
+
+# iOS generated/build files
+ios/Pods/** linguist-vendored
+ios/.symlinks/** linguist-generated
+ios/Flutter/ephemeral/** linguist-generated
+ios/build/** linguist-generated
+
+# Firebase / platform generated files
+firebase-debug.log linguist-generated
